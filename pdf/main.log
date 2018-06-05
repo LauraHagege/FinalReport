@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.26)  5 JUN 2018 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.26)  5 JUN 2018 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,20 +6,19 @@ entering extended mode
 (./src/main.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -37,9 +36,9 @@ Package ifvtex Info: VTeX not detected.
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -66,7 +65,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count91
+\c@NAT@ctr=\count90
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
@@ -82,7 +81,7 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@old@col=\dimen121
 \TX@target=\dimen122
 \TX@delta=\dimen123
-\TX@cols=\count92
+\TX@cols=\count91
 \TX@ftn=\toks18
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -90,21 +89,21 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip48
 \LTpre=\skip49
 \LTpost=\skip50
-\LTchunksize=\count93
+\LTchunksize=\count92
 \LTcapwidth=\dimen124
 \LT@head=\box27
 \LT@firsthead=\box28
 \LT@foot=\box29
 \LT@lastfoot=\box30
-\LT@cols=\count94
-\LT@rows=\count95
-\c@LT@tables=\count96
-\c@LT@chunks=\count97
+\LT@cols=\count93
+\LT@rows=\count94
+\c@LT@tables=\count95
+\c@LT@chunks=\count96
 \LT@p@ftn=\toks19
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip51
-\multirow@cntb=\count98
+\multirow@cntb=\count97
 \multirow@dima=\skip52
 \bigstrutjot=\dimen125
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
@@ -115,10 +114,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip55
 \subfigcapmargin=\dimen127
 \subfiglabelskip=\skip56
-\c@subfigure=\count99
-\c@lofdepth=\count100
-\c@subtable=\count101
-\c@lotdepth=\count102
+\c@subfigure=\count98
+\c@lofdepth=\count99
+\c@subtable=\count100
+\c@lotdepth=\count101
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
@@ -138,7 +137,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen133
 \caption@hangindent=\dimen134
 )
-\c@ContinuedFloat=\count103
+\c@ContinuedFloat=\count102
 Package caption Info: longtable package is loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
@@ -165,7 +164,7 @@ Package: babel 2017/05/19 3.10 The Babel package
 Language: english 2017/01/24 v3.3q English support from the babel system
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2017/05/19 3.10 Babel common definitions
-\babel@savecnt=\count104
+\babel@savecnt=\count103
 \U@D=\dimen135
 )
 \l@canadian = a dialect from \language\l@american 
@@ -187,13 +186,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count105
+\inf@bad=\count104
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count106
-\leftroot@=\count107
+\uproot@=\count105
+\leftroot@=\count106
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count108
-\DOTSCASE@=\count109
+\classnum@=\count107
+\DOTSCASE@=\count108
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -202,15 +201,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen138
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count110
-\c@MaxMatrixCols=\count111
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
 \dotsspace@=\muskip11
-\c@parentequation=\count112
-\dspbrk@lvl=\count113
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
 \tag@help=\toks21
-\row@=\count114
-\column@=\count115
-\maxfields@=\count116
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
 \andhelp@=\toks22
 \eqnshift@=\dimen139
 \alignsep@=\dimen140
@@ -241,7 +240,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count117
+\Gread@gobject=\count116
 ))
 \Gin@req@height=\dimen145
 \Gin@req@width=\dimen146
@@ -341,12 +340,12 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen147
-\Hy@linkcounter=\count118
-\Hy@pagecounter=\count119
+\Hy@linkcounter=\count117
+\Hy@pagecounter=\count118
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count120
+\Hy@SavedSpaceFactor=\count119
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -359,10 +358,10 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing ON on input line 4516.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count121
+\c@Hy@tempcnt=\count120
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen148
-\Fld@menulength=\count122
+\Fld@menulength=\count121
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -374,17 +373,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count123
-\c@Item=\count124
-\c@Hfootnote=\count125
+\Hy@abspage=\count122
+\c@Item=\count123
+\c@Hfootnote=\count124
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count126
-\c@bookmark@seq@number=\count127
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
 \Hy@SectionHShift=\skip71
 )
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 47.
@@ -453,16 +452,16 @@ Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count127
 \scratchdimen=\dimen151
 \scratchbox=\box33
-\nofMPsegments=\count129
-\nofMParguments=\count130
+\nofMPsegments=\count128
+\nofMParguments=\count129
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count131
+\MPscratchCnt=\count130
 \MPscratchDim=\dimen152
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks26
 )
 Package backref Info: ** backref set up for natbib ** on input line 24.
@@ -480,7 +479,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count134
+\c@section@level=\count133
 )
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
@@ -489,7 +488,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-(./src/titlepage.tex <./figures/imperial.pdf, id=24, 362.35374pt x 95.35625pt>
+(./src/titlepage.tex <./figures/imperial.pdf, id=48, 362.35374pt x 95.35625pt>
 File: ./figures/imperial.pdf Graphic file (type pdf)
 <use ./figures/imperial.pdf>
 Package pdftex.def Info: ./figures/imperial.pdf used on input line 11.
@@ -504,82 +503,154 @@ LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <24.88> not available
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
-es/imperial.pdf>])
-LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <12> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 37.
-[1
+es/imperial.pdf>]) [2
 
-
-] [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 43.
-[3] [4
-
-
-] (pdf/main.toc)
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 51.
+(pdf/main.toc
+LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <12> not available
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 2.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 3.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+))
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-[5
-
-] [6
+[3] [4
 
 
 ]
-Chapter 1.
-File: ./figures/imperial.pdf Graphic file (type pdf)
-<use ./figures/imperial.pdf>
-Package pdftex.def Info: ./figures/imperial.pdf used on input line 65.
-(pdftex.def)             Requested size: 175.26622pt x 46.12257pt.
-LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 66.
-[1
+LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 63.
 
-]
-Chapter 2.
-[2
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
-]
-Chapter 3.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ú in font bchr7t!
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ù in font bchr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 80.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsbch.fd
+File: omsbch.fd 
+)
+LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ì in font bchr7t!
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ô in font bchr7t!
+[1]
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ú in font bchr7t!
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ù in font bchr7t!
+[2]
+Overfull \hbox (6.66692pt too wide) in paragraph at lines 108--109
+[]\OT1/bch/m/n/12 A Lit-ter-a-ture re-view doc-u-ment called "Pa-tient Health R
+ecord Sys-tems Scope
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ì in font bchr7t!
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ì in font bchr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+
+ []
+
 [3
 
-]
-Chapter 4.
-[4
-
-]
-Chapter 5.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+] [4] <./figures/LSEPI-CL1.png, id=103, 678.535pt x 704.6325pt>
+File: ./figures/LSEPI-CL1.png Graphic file (type png)
+<use ./figures/LSEPI-CL1.png>
+Package pdftex.def Info: ./figures/LSEPI-CL1.png used on input line 152.
+(pdftex.def)             Requested size: 433.79295pt x 450.46869pt.
+LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 153.
 [5
 
+ <./figures/LSEPI-CL1.png>] <./figures/LSEPI-CL2.png, id=111, 680.5425pt x 693.
+59125pt>
+File: ./figures/LSEPI-CL2.png Graphic file (type png)
+<use ./figures/LSEPI-CL2.png>
+Package pdftex.def Info: ./figures/LSEPI-CL2.png used on input line 160.
+(pdftex.def)             Requested size: 433.79295pt x 442.1083pt.
+[6 <./figures/LSEPI-CL2.png>] [7
+
+
+] [8
+
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+[9
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
 (pdf/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
  ) 
 Here is how much of TeX's memory you used:
- 8887 strings out of 492995
- 132935 string characters out of 6132704
- 232245 words of memory out of 5000000
- 12250 multiletter control sequences out of 15000+600000
- 26451 words of font info for 41 fonts, out of 8000000 for 9000
+ 8956 strings out of 492995
+ 134158 string characters out of 6132704
+ 236812 words of memory out of 5000000
+ 12290 multiletter control sequences out of 15000+600000
+ 33584 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,43p,373b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,43p,541b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on pdf/main.pdf (12 pages, 54878 bytes).
+/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on pdf/main.pdf (13 pages, 360315 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-\documentclass[12pt,twoside]{report}
+\documentclass[12pt,twoside]{article}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -19,7 +19,7 @@
 % load some macros
 \input{src/format/notation}
 
-\date{September 2015}
+\date{Juin 2018}
 
 \begin{document}
 
@@ -28,26 +28,26 @@
 
 
 % page numbering etc.
-\pagenumbering{roman}
-\clearpage{\pagestyle{empty}\cleardoublepage}
-\setcounter{page}{1}
-\pagestyle{fancy}
+%\pagenumbering{roman}
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+%\setcounter{page}{1}
+%\pagestyle{fancy}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{abstract}
-Your abstract.
-\end{abstract}
+%\begin{abstract}
+%Your abstract.
+%\end{abstract}
 
-\cleardoublepage
+%\cleardoublepage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Acknowledgments}
-Comment this out if not needed.
+%\section*{Acknowledgments}
+%Comment this out if not needed.
 
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %--- table of contents
-\fancyhead[RE,LO]{\sffamily {Table of Contents}}
+%\fancyhead[RE,LO]{\sffamily {Table of Contents}}
 \tableofcontents 
 
 
@@ -58,32 +58,129 @@ Comment this out if not needed.
 \fancyhead[LO,RE]{\slshape \leftmark}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Introduction}
+\section{Project Overview}
+
+\subsection{Supervisors}
+
+My direct supervisor is Dr Fernando Bello, he is  is a computer scientist and engineer working at the intersection of medicine, education and technology. He is a Reader in Surgical Computing and Simulation Science at Imperial College London, where he co-directs the Centre for Engagement and Simulation Science, leading a multi-disciplinary research group aiming at building suitable models and simulations of clinical processes, including clinical examination, clinical diagnosis, interventional procedures and care pathways.
+Dr Bello proposed my project as entitled "An intelligent digital interface for sharing diagnostic medical imaging with patients".\\
+
+I will also be working with William Cox, which is currently working on a PhD project investigating the extraction of novel benefit from diagnostic radiological images through sharing images with patients.\\ 
+
+Together Dr Bello and Mr Cox he will be supporting my project and providing me specification for it's realization. \\
+
+
+\subsection{Main Goal}
+
+
+// TO BE UPDATED WITH NEW DISCUSSION WITH WILL
+
+The aim of this project is to create a graphical user interface (GUI) that allows MRI, CT-scan, X-Ray patient to access their datas with different levels of “benefits”. Data acquisition should be valuable for patients. Among others, main criteria of success would include the following points:\\
+\begin{itemize}
+\item Patient should be able to understand provided images 
+\item Patient could explore the data in different ways/ different images orientation
+\item Patient should have the possibility to ask questions to doctors/ specific assigned people
+\end{itemize}
+
+Those point has been defined following the first meeting with my supervisors.
+
+\subsection{Further Precisions}
+\begin{itemize}
+\item No access to any database will be provided for the current project (security issues) 
+\item Access to the interface will be local – patient would be given (upon request) a CD with their images loaded on the interface; this won’t change patient access to datas but should make them want to access it
+\item Interface should include user specification/precisions for patient 
+\item Benefits/specifications will have to be defined before starting implementation
+\item Interface should be “windows portable” 
+
+\end{itemize}
+
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Background Work}
+\begin{itemize}
+\item Project field apprehension: \\
+Towards the first meeting with my supervisors, document has been sent to me from William in order to get me familiar with the context in which my project is part of.
+Those documents includes:
+\begin{itemize}
+\item William PhD late stage review report discussing the benefit of creating a patient oriented interface
+\item A Litterature review document called "Patient Health Record Systems Scope and Functionalities"
+\item A Litterature review document called "Patient Portal Preferences: Perspectives on Imaging Information"
+\item A research article entitled "Imaging informatics for consumer health: towards a radiology patient portal"
+\end{itemize}
+ 
+\item Define project/interface specification:\\ \\
+Before starting to write any piece of code, I have decided to get the clearest specifications defined with my tutors in order to be sure that the future produced work will fit theirn needs. Specification should be done concerning:
+\begin{itemize}
+\item Interface oriented spec:
+\begin{itemize}
+\item Content
+\item Functionalities
+\item Design
+\end{itemize}
+
+\item Data Providing:
+\begin{itemize} 
+\item What can be provided?
+\item How to provide it?
+\end{itemize}
+
+	
+\end{itemize}
+
+
+\item DICOM Data familiarization:\\ \\
+Imaging datas are provided in a specific format called DICOM - Digital Imagine and Communication in Medicine. This is a standard format for storing and transmitting informatic data related to medical images. It has been widely adpoted by most hospitals in order to standardise data transmission between different radiology tools – such as scanners servers, worksation, printers, network hardware and PACS (see below) – and different stakeholders.  \\
+DICOM data readers can be found on the internet as it is a huge format to deal with. My first work is then to find out about those readers and pick one that could suits my project 
+ 
+
+\item Determine implementation method and get used to it:\\ \\
+Multiple GUI tools are provided on the net provided with tutorial and specification to create interfaces for begginers. Before starting to implement I need to determine the tool I will use to developp my interface. Exploring the internet the objective is to make a short comparison between the current extisting tools and choose the one that I feel the most confortable with and the most suitable for my needs.
+
+ 
+
+
+\end{itemize}
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{LSEPI Checklist}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width = 0.99\hsize]{./figures/LSEPI-CL1}
+\caption{LSEPI Checklist - part 1}
+\end{figure}
+
+\clearpage
 
 \begin{figure}[tb]
 \centering
-\includegraphics[width = 0.4\hsize]{./figures/imperial}
-\caption{Imperial College Logo. It's nice blue, and the font is quite stylish. But you can choose a different one if you don't like it.}
-\label{fig:logo}
+\includegraphics[width = 0.99\hsize]{./figures/LSEPI-CL2}
+\caption{LSEPI Checklist - part 1}
 \end{figure}
 
-Figure~\ref{fig:logo} is an example of a figure. 
 
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Background}
+\section{Progress Sumarry}
 
-hi ho w are you 
 
+\section{Interface Current Specification}
+
+
+
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Contribution}
+\section{Project Plan}
 
-
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Experimental Results}
+\section{Appendix}
+\subsection{Questions List Doc}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Conclusion}
 
 
 %% bibliography
