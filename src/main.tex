@@ -70,27 +70,18 @@ I will also be working with William Cox, which is currently working on a PhD pro
 Together Dr Bello and Mr Cox he will be supporting my project and providing me specification for it's realization. \\
 
 
-\subsection{Main Goal}
+\subsection{Project Goal}
 
 
-// TO BE UPDATED WITH NEW DISCUSSION WITH WILL
-
-The aim of this project is to create a graphical user interface (GUI) that allows MRI, CT-scan, X-Ray patient to access their datas with different levels of “benefits”. Data acquisition should be valuable for patients. Among others, main criteria of success would include the following points:\\
+The aim of this project is to create a graphical user interface (GUI) that allows MRI, CT-scan, X-Ray patient to access their datas with different levels of “benefits”. Data acquisition should be valuable for patients. 
+Following the first meeting with my tutors main criteria of success have first be defined as considering the following points:\\
 \begin{itemize}
 \item Patient should be able to understand provided images 
 \item Patient could explore the data in different ways/ different images orientation
 \item Patient should have the possibility to ask questions to doctors/ specific assigned people
 \end{itemize}
 
-Those point has been defined following the first meeting with my supervisors.
-
-\subsection{Further Precisions}
-\begin{itemize}
-\item No access to any database will be provided for the current project (security issues) 
-\item Access to the interface will be local – patient would be given (upon request) a CD with their images loaded on the interface; this won’t change patient access to datas but should make them want to access it
-\item Interface should include user specification/precisions for patient 
-\item Benefits/specifications will have to be defined before starting implementation
-\item Interface should be “windows portable” 
+Those criterias were for me the basis to create further specifications that will be developped later in this document.
 
 \end{itemize}
 
@@ -99,8 +90,9 @@ Those point has been defined following the first meeting with my supervisors.
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Background Work}
-\begin{itemize}
-\item Project field apprehension: \\
+
+
+\subsection{Project field apprehension:} 
 Towards the first meeting with my supervisors, document has been sent to me from William in order to get me familiar with the context in which my project is part of.
 Those documents includes:
 \begin{itemize}
@@ -110,7 +102,7 @@ Those documents includes:
 \item A research article entitled "Imaging informatics for consumer health: towards a radiology patient portal"
 \end{itemize}
  
-\item Define project/interface specification:\\ \\
+\subsection{Project frame and specifications definition:}
 Before starting to write any piece of code, I have decided to get the clearest specifications defined with my tutors in order to be sure that the future produced work will fit theirn needs. Specification should be done concerning:
 \begin{itemize}
 \item Interface oriented spec:
@@ -130,18 +122,16 @@ Before starting to write any piece of code, I have decided to get the clearest s
 \end{itemize}
 
 
-\item DICOM Data familiarization:\\ \\
+\subsection{DICOM Data familiarization}
 Imaging datas are provided in a specific format called DICOM - Digital Imagine and Communication in Medicine. This is a standard format for storing and transmitting informatic data related to medical images. It has been widely adpoted by most hospitals in order to standardise data transmission between different radiology tools – such as scanners servers, worksation, printers, network hardware and PACS (see below) – and different stakeholders.  \\
 DICOM data readers can be found on the internet as it is a huge format to deal with. My first work is then to find out about those readers and pick one that could suits my project 
  
 
-\item Determine implementation method and get used to it:\\ \\
+\subsection{Choose accurate implementation method:}
 Multiple GUI tools are provided on the net provided with tutorial and specification to create interfaces for begginers. Before starting to implement I need to determine the tool I will use to developp my interface. Exploring the internet the objective is to make a short comparison between the current extisting tools and choose the one that I feel the most confortable with and the most suitable for my needs.
 
- 
 
 
-\end{itemize}
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -166,8 +156,83 @@ Multiple GUI tools are provided on the net provided with tutorial and specificat
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Progress Sumarry}
 
+Fom now a large amount of the background work has been completed and I'll be soon be beginning to developp a first prototype of my application. \\
+Achieved step are defined below:
 
-\section{Interface Current Specification}
+\subsection{Project field apprehension}
+Before the first meeting with my tutors I have read throught the given documents in order to get familiar with the future project. Reading William PhD's report which measure the benefit of creating such a patient oriented interface I realized how benefic my future work could be.
+
+I also realized that there were aleady existing tools concerning data imaging display. My tutors idea is then for me to take a look at existing interface designs and considering how they could be changed to make them user friendly for the specified user group.
+
+
+\subsection{Specification Definition - General}
+Following several discussions with my tutors, we finally agree on the project specifications - that might evolve during the realization of the interface:
+\begin{itemize}
+	
+\item \textbf{Interface content:}
+\begin{itemize}
+\item Display patient images - images provided in DICOM format to be translated so that the patient can read them
+\item Clinical repor(from doctor) and simplifie version
+\item Link to NHS website, so that patient could find general informations about their condition
+\item Flag informations should be provided while exploring the images
+\item Any other relevant informations related to what the DICOM files provides could be added 
+\end{itemize}
+
+\item \textbf{Interface functionalities:} \\ \\
+The interface should provide:
+\begin{itemize}
+\item One doctor oriented window: so, they can fill in datas (images, report) and add flag to images at their conveniance.
+\item One patient oriented window: read only data (no modification allowed) and the possibility for patient to chat with doctors.
+
+\end{itemize}
+
+My first concern (in the context of this project) is to focus on the patient oriented side and see how fare I can take this project; this side can be really time consuming as it might need to be oftently readaptaed as created.
+
+
+\item \textbf{Interface design:}
+\begin{itemize}
+\item Imaging display will depend on the provided images (MRI, CT) but not on the part of the body – see below point 2.3.
+\item Patient should be able to see flag appearing on the images
+\item Provide a side by side – or other relevant organization – that would allow the patient to get the images and the report together in a relevant way
+
+\end{itemize}
+
+\item \textbf{Further precisions:}
+\begin{itemize}
+\item No access to any database will be provided for the current project (security issues) 
+\item Access to the interface will be local – patient would be given (upon request) a CD with their images loaded on the interface; this won’t change patient access to datas but should make them want to access it
+\item Interface should include user specification/precisions for patient 
+\item Benefits/specifications will have to be defined before starting implementation
+\item Interface should be “windows portable” 
+\end{itemize}
+
+\item \textbf{-	Interface evaluation:} \\ \\
+At some point interface is to be evaluted by a panel of patient that would be ask to use the interface and make feedbacks.
+
+
+\end{itemize} \\ \\
+
+Those specification allow to get the general overview of the interface content. Recently William Cocks provided me with a document containing more presicion on the interface functionnalities such as:
+\begin{itemize}
+\item Initial interface (before opening imaging): password controle, disclaimer etc.
+\item Accompanying information: more precision on the content
+\item Specific requirements by imaging modality: different type of images can be provided on the interfaces; I hence ask Will for a precise list of the potential images to be display and the corresponding way to deal with it
+\end{itemize}
+
+\subsection{GUI tool choice: Qt}
+I have
+
+
+
+
+\begin{itemize} 
+\item Tools Comparison
+
+\item Choosen Tool aprehension: tutorial 
+	
+\end{itemize}
+
+\subsection{DICOM apprehension}
 
 
 
@@ -178,7 +243,7 @@ Multiple GUI tools are provided on the net provided with tutorial and specificat
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Appendix}
-\subsection{Questions List Doc}
+
 
 
 
