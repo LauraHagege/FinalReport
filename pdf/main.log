@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.26)  6 JUN 2018 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.26)  7 JUN 2018 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,21 +394,21 @@ Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )) (./src/format/notation.tex) (pdf/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Try loading font information for OT1+bch on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 26.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1bch.fd
 File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 )
@@ -464,7 +464,7 @@ Package caption Info: End \AtBeginDocument code.
 \makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks26
 )
-Package backref Info: ** backref set up for natbib ** on input line 24.
+Package backref Info: ** backref set up for natbib ** on input line 26.
 \AtBeginShipoutBox=\box34
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -473,7 +473,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 26.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -481,14 +481,14 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 (pdf/main.out) (pdf/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-(./src/titlepage.tex <./figures/imperial.pdf, id=68, 362.35374pt x 95.35625pt>
+(./src/titlepage.tex <./figures/imperial.pdf, id=80, 362.35374pt x 95.35625pt>
 File: ./figures/imperial.pdf Graphic file (type pdf)
 <use ./figures/imperial.pdf>
 Package pdftex.def Info: ./figures/imperial.pdf used on input line 11.
@@ -508,7 +508,7 @@ es/imperial.pdf>]) [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 51.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 53.
 (pdf/main.toc
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <12> not available
 (Font)              Font shape `OT1/bch/b/n' tried instead on input line 2.
@@ -524,19 +524,19 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 ]
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 65.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
@@ -546,17 +546,17 @@ Missing character: There is no ú in font bchr7t!
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ù in font bchr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 81.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsbch.fd
 File: omsbch.fd 
 )
 LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
 
 ! LaTeX Error: \begin{document} ended by \end{itemize}.
 
@@ -564,7 +564,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 \end{itemize}
+l.90 \end{itemize}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -573,35 +573,45 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.86 \end{itemize}
+l.90 \end{itemize}
                   
 Things are pretty mixed up, but I think the worst is over.
 
-[1]
-Missing character: There is no ‚ in font bchr7t!
-Missing character: There is no Ä in font bchr7t!
-Missing character: There is no ì in font bchr7t!
-Missing character: There is no ‚ in font bchr7t!
-Missing character: There is no Ä in font bchr7t!
-Missing character: There is no ì in font bchr7t!
-[2
+[1] [2
 
-] [3] <./figures/LSEPI-CL1.png, id=124, 678.535pt x 704.6325pt>
+]
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ì in font bchr7t!
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ì in font bchr7t!
+[3
+
+] <./figures/LSEPI-CL1.png, id=139, 678.535pt x 704.6325pt>
 File: ./figures/LSEPI-CL1.png Graphic file (type png)
 <use ./figures/LSEPI-CL1.png>
-Package pdftex.def Info: ./figures/LSEPI-CL1.png used on input line 142.
+Package pdftex.def Info: ./figures/LSEPI-CL1.png used on input line 148.
 (pdftex.def)             Requested size: 433.79295pt x 450.46869pt.
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 143.
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 149.
 [4
 
- <./figures/LSEPI-CL1.png>] <./figures/LSEPI-CL2.png, id=132, 680.5425pt x 693.
+ <./figures/LSEPI-CL1.png>] <./figures/LSEPI-CL2.png, id=147, 680.5425pt x 693.
 59125pt>
 File: ./figures/LSEPI-CL2.png Graphic file (type png)
 <use ./figures/LSEPI-CL2.png>
-Package pdftex.def Info: ./figures/LSEPI-CL2.png used on input line 150.
+Package pdftex.def Info: ./figures/LSEPI-CL2.png used on input line 156.
 (pdftex.def)             Requested size: 433.79295pt x 442.1083pt.
 [5 <./figures/LSEPI-CL2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
+
+ []
+
+[6
+
+
+]
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ì in font bchr7t!
@@ -617,39 +627,171 @@ Missing character: There is no ì in font bchr7t!
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ô in font bchr7t!
-[6
-
-
-]
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ú in font bchr7t!
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ù in font bchr7t!
-[7] [8
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
-[9
+Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
+ []
+
+[7] <./figures/comparison.png, id=163, 457.71pt x 127.47626pt>
+File: ./figures/comparison.png Graphic file (type png)
+<use ./figures/comparison.png>
+Package pdftex.def Info: ./figures/comparison.png used on input line 233.
+(pdftex.def)             Requested size: 433.79295pt x 120.8197pt.
+[8
+
+ <./figures/comparison.png>] [9
+
+] <./figures/GeneralSpec1.png, id=175, 501.875pt x 225.34187pt>
+File: ./figures/GeneralSpec1.png Graphic file (type png)
+<use ./figures/GeneralSpec1.png>
+Package pdftex.def Info: ./figures/GeneralSpec1.png used on input line 280.
+(pdftex.def)             Requested size: 416.26231pt x 186.90991pt.
+<./figures/GeneralSpec2.png, id=176, 501.875pt x 351.3125pt>
+File: ./figures/GeneralSpec2.png Graphic file (type png)
+<use ./figures/GeneralSpec2.png>
+Package pdftex.def Info: ./figures/GeneralSpec2.png used on input line 281.
+(pdftex.def)             Requested size: 416.26231pt x 291.3963pt.
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.282 \end{figure}
+                  
+\global 
+
+[10
+
+ <./figures/GeneralSpec1.png> <./figures/GeneralSpec2.png>] <./figures/GeneralS
+pec3.png, id=184, 501.37312pt x 149.05687pt>
+File: ./figures/GeneralSpec3.png Graphic file (type png)
+<use ./figures/GeneralSpec3.png>
+Package pdftex.def Info: ./figures/GeneralSpec3.png used on input line 290.
+(pdftex.def)             Requested size: 416.26231pt x 123.76038pt.
+<./figures/GeneralSpec4.png, id=185, 501.875pt x 290.08376pt>
+File: ./figures/GeneralSpec4.png Graphic file (type png)
+<use ./figures/GeneralSpec4.png>
+Package pdftex.def Info: ./figures/GeneralSpec4.png used on input line 291.
+(pdftex.def)             Requested size: 416.26231pt x 240.61009pt.
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 \end{figure}
+                  
+\global 
+
+[11
+
+ <./figures/GeneralSpec3.png> <./figures/GeneralSpec4.png>] <./figures/ImagingS
+pec1.png, id=193, 501.875pt x 600.74437pt>
+File: ./figures/ImagingSpec1.png Graphic file (type png)
+<use ./figures/ImagingSpec1.png>
+Package pdftex.def Info: ./figures/ImagingSpec1.png used on input line 300.
+(pdftex.def)             Requested size: 416.26231pt x 498.2877pt.
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.301 \end{figure}
+                  
+\global 
+
+[12
+
+ <./figures/ImagingSpec1.png>] <./figures/ImagingSpec2.png, id=200, 501.875pt x
+ 529.47812pt>
+File: ./figures/ImagingSpec2.png Graphic file (type png)
+<use ./figures/ImagingSpec2.png>
+Package pdftex.def Info: ./figures/ImagingSpec2.png used on input line 306.
+(pdftex.def)             Requested size: 416.26231pt x 439.17587pt.
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.307 \end{figure}
+                  
+\global 
+
+[13
+
+ <./figures/ImagingSpec2.png>] <./figures/ImagingSpec3.png, id=207, 501.875pt x
+ 204.26312pt>
+File: ./figures/ImagingSpec3.png Graphic file (type png)
+<use ./figures/ImagingSpec3.png>
+Package pdftex.def Info: ./figures/ImagingSpec3.png used on input line 312.
+(pdftex.def)             Requested size: 416.26231pt x 169.42613pt.
+<./figures/ImagingSpec4.png, id=208, 501.875pt x 500.36937pt>
+File: ./figures/ImagingSpec4.png Graphic file (type png)
+<use ./figures/ImagingSpec4.png>
+Package pdftex.def Info: ./figures/ImagingSpec4.png used on input line 313.
+(pdftex.def)             Requested size: 416.26231pt x 415.03162pt.
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 \end{figure}
+                  
+\global 
+
+[14 <./figures/ImagingSpec3.png> <./figures/ImagingSpec4.png>] <./figures/bibli
+o.png, id=216, 414.04688pt x 217.81375pt>
+File: ./figures/biblio.png Graphic file (type png)
+<use ./figures/biblio.png>
+Package pdftex.def Info: ./figures/biblio.png used on input line 324.
+(pdftex.def)             Requested size: 433.79295pt x 228.2093pt.
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 \end{figure}
+                  
+\global 
+
+[15
+
+
+ <./figures/biblio.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
 (pdf/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
  ) 
 Here is how much of TeX's memory you used:
- 8966 strings out of 492995
- 134283 string characters out of 6132704
+ 9034 strings out of 492995
+ 135860 string characters out of 6132704
  235812 words of memory out of 5000000
- 12295 multiletter control sequences out of 15000+600000
+ 12337 multiletter control sequences out of 15000+600000
  33584 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,43p,541b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,43p,537b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive
@@ -657,10 +799,10 @@ ive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive
 17/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on pdf/main.pdf (13 pages, 362507 bytes).
+Output written on pdf/main.pdf (19 pages, 1476408 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 

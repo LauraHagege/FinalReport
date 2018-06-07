@@ -5,13 +5,16 @@
 \contentsline {section}{\numberline {2}Background Work}{2}{section.5}
 \contentsline {subsection}{\numberline {2.1}Project field apprehension:}{2}{subsection.6}
 \contentsline {subsection}{\numberline {2.2}Project frame and specifications definition:}{2}{subsection.7}
-\contentsline {subsection}{\numberline {2.3}DICOM Data familiarization}{2}{subsection.8}
+\contentsline {subsection}{\numberline {2.3}DICOM Data familiarization}{3}{subsection.8}
 \contentsline {subsection}{\numberline {2.4}Choose accurate implementation method:}{3}{subsection.9}
 \contentsline {section}{\numberline {3}LSEPI Checklist}{4}{section.10}
 \contentsline {section}{\numberline {4}Progress Sumarry}{6}{section.13}
-\contentsline {subsection}{\numberline {4.1}Specification Definition}{6}{subsection.14}
-\contentsline {subsection}{\numberline {4.2}GUI tool choice: Qt}{7}{subsection.15}
-\contentsline {subsection}{\numberline {4.3}DICOM apprehension}{7}{subsection.16}
-\contentsline {section}{\numberline {5}Project Plan}{8}{section.17}
-\contentsline {section}{\numberline {6}Appendix}{9}{section.18}
-\contentsline {subsection}{\numberline {6.1}Questions}{9}{subsection.19}
+\contentsline {subsection}{\numberline {4.1}Project field apprehension}{6}{subsection.14}
+\contentsline {subsection}{\numberline {4.2}Specification Definition}{6}{subsection.15}
+\contentsline {subsection}{\numberline {4.3}GUI tool choice: Qt}{8}{subsection.16}
+\contentsline {subsection}{\numberline {4.4}DICOM apprehension}{8}{subsection.18}
+\contentsline {section}{\numberline {5}Project Plan}{9}{section.19}
+\contentsline {section}{\numberline {6}Appendix}{10}{section.20}
+\contentsline {subsection}{\numberline {6.1}Appendix 1 - General Interface Specification}{10}{subsection.21}
+\contentsline {subsection}{\numberline {6.2}Appendix 2 - Imaging Specification}{12}{subsection.24}
+\contentsline {section}{\numberline {7}Bibliography}{15}{section.28}
