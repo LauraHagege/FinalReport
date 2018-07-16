@@ -1,19 +1,17 @@
-\BOOKMARK [1][]{section.2}{1 Project Overview}{}% 1
-\BOOKMARK [2][]{subsection.3}{1.1 Supervisors}{section.2}% 2
-\BOOKMARK [2][]{subsection.4}{1.2 Project Goal}{section.2}% 3
-\BOOKMARK [1][]{section.5}{2 Background Work}{}% 4
-\BOOKMARK [2][]{subsection.6}{2.1 Project field apprehension:}{section.5}% 5
-\BOOKMARK [2][]{subsection.7}{2.2 Project frame and specifications definition:}{section.5}% 6
-\BOOKMARK [2][]{subsection.8}{2.3 DICOM Data familiarization}{section.5}% 7
-\BOOKMARK [2][]{subsection.9}{2.4 Choose accurate implementation method:}{section.5}% 8
-\BOOKMARK [1][]{section.10}{3 LSEPI Checklist}{}% 9
-\BOOKMARK [1][]{section.13}{4 Progress Sumarry}{}% 10
-\BOOKMARK [2][]{subsection.14}{4.1 Project field apprehension}{section.13}% 11
-\BOOKMARK [2][]{subsection.15}{4.2 Specification Definition}{section.13}% 12
-\BOOKMARK [2][]{subsection.16}{4.3 GUI tool choice: Qt}{section.13}% 13
-\BOOKMARK [2][]{subsection.18}{4.4 DICOM apprehension}{section.13}% 14
-\BOOKMARK [1][]{section.19}{5 Project Plan}{}% 15
-\BOOKMARK [1][]{section.20}{6 Appendix}{}% 16
-\BOOKMARK [2][]{subsection.21}{6.1 Appendix 1 - General Interface Specification}{section.20}% 17
-\BOOKMARK [2][]{subsection.24}{6.2 Appendix 2 - Imaging Specification}{section.20}% 18
-\BOOKMARK [1][]{section.28}{7 Bibliography}{}% 19
+\BOOKMARK [1][]{section.2}{1 Introduction}{}% 1
+\BOOKMARK [1][]{section.3}{2 Project Overview}{}% 2
+\BOOKMARK [2][]{subsection.4}{2.1 Supervisors}{section.3}% 3
+\BOOKMARK [2][]{subsection.5}{2.2 Project Goal}{section.3}% 4
+\BOOKMARK [1][]{section.6}{3 Background Work}{}% 5
+\BOOKMARK [2][]{subsection.7}{3.1 Project field apprehension:}{section.6}% 6
+\BOOKMARK [2][]{subsection.8}{3.2 Project frame and specifications definition:}{section.6}% 7
+\BOOKMARK [2][]{subsection.9}{3.3 DICOM Data familiarization}{section.6}% 8
+\BOOKMARK [2][]{subsection.10}{3.4 Choose accurate implementation method:}{section.6}% 9
+\BOOKMARK [1][]{section.11}{4 The DICOM File Format}{}% 10
+\BOOKMARK [2][]{subsection.12}{4.1 Definition}{section.11}% 11
+\BOOKMARK [2][]{subsection.13}{4.2 Understanding file content}{section.11}% 12
+\BOOKMARK [1][]{section.14}{5 Evaluation}{}% 13
+\BOOKMARK [1][]{section.15}{6 Conclusion and future work}{}% 14
+\BOOKMARK [1][]{section.16}{7 Appendix}{}% 15
+\BOOKMARK [2][]{subsection.17}{7.1 Appendix 1 - General Interface Specification}{section.16}% 16
+\BOOKMARK [2][]{subsection.20}{7.2 Appendix 2 - Imaging Specification}{section.16}% 17
