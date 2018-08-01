@@ -10,7 +10,7 @@
 % Edit these to provide the correct information
 % e.g. \newcommand{\reportauthor}{Timothy Kimber}
 
-\newcommand{\reporttitle}{An intelligent digital interface for sharing diagnostic medical imaging with patients}
+\newcommand{\reporttitle}{An idigital interface designed for sharing diagnostic medical imaging with patients}
 \newcommand{\reportauthor}{Laura Hagege LH}
 \newcommand{\supervisor}{Fernando Bello}
 \newcommand{\degreetype}{Msc. Computing Science}
@@ -51,7 +51,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-
+\normalsize
 \input{src/section/abstract}
 
 \end{abstract}
@@ -90,102 +90,100 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Project Overview}
+\section{Project Context and Background}
+\subsection{Project premises}
+%will work
+\input{src/section/backgroundandcontext/premises}
 
-\subsection{Supervisors}
+\clearpage
+\subsection{Benefit of the project}
+%litterature reviews
+\input{src/section/backgroundandcontext/benefit}
 
-\input{src/section/overview/supervisors}
-
-
-\subsection{Project Goal}
-
-\input{src/section/overview/goal}
+\clearpage
+\subsection{Early specifications}
+%same as in background
+\input{src/section/backgroundandcontext/specifications}
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Background Work}
-
-
-\subsection{Project field apprehension:} 
-Towards the first meeting with my supervisors, Will have emailed me several documents in order to get myself familiar with the context of which my project is part of.
-Those documents included:
-\begin{itemize}
-\item William PhD late stage review report discussing the benefit of creating a patient oriented interface
-\item A Litterature review document called "Patient Health Record Systems Scope and Functionalities" [4]
-\item A Litterature review document called "Patient Portal Preferences: Perspectives on Imaging Information" [5]
-\item A research article entitled "Imaging informatics for consumer health: towards a radiology patient portal"
-\end{itemize}
- 
-\subsection{Project frame and specifications definition:}
-Before starting coding the interface, it is important to define the specifications in the most precise way with my tutors in order to be sure that the future produced work will fit their needs. \\
-Specification should be done considering:
-\begin{itemize}
-\item Interface oriented specification:
-\begin{itemize}
-\item Content
-\item Functionalities
-\item Design
-\end{itemize}
-
-\item Data Providing:
-\begin{itemize} 
-\item What can be provided?
-\item How to provide it?
-\end{itemize}
-
-	
-\end{itemize}
-
-\clearpage
-
-\subsection{DICOM Data familiarization}
-Imaging datas are provided in a specific format called DICOM - Digital Imaging and Communication in Medicine. This is a standard format for storing and transmitting informatic data related to medical images. This has been widely adpoted by most hospitals in order to standardise data transmission between different radiology tools, such as scanners servers, workstation, printers, network hardware and PACS - Picture Archiving and Communication System – and different stakeholders.  \\
-DICOM data readers exist in open-source over the internet, my first work conerning those data is to explore existing readers and pick one that could suits my project.
-
-
- 
-
-\subsection{Choose accurate implementation method:}
-I have been given the freedom to choose the langage and tools that I will use to create the interface. Multiple GUI tools are provided on the Internet, along with tutorials and advices to create interfaces. Before starting to implement the interface it is important to choose the tool that will best fit my needs. Exploring the Internet, the idea is to make a short comparison between the current most famous tools and choose the one that I feel the most confortable with.
-
-
-\clearpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{The DICOM File Format}
-\subsection{Definition}
-
+\section{Groundwork - Required Knowledge Familiarization}
+\subsection{Understand the imaging file format: DICOM standard}
 \input{src/section/dicom/definition}
-
-\subsection{Understanding file content}
-
-\cite{DICOMWEBSITE:1} 
-
-\input{src/section/dicom/filecontent}
+\input{src/section/dicom/dicomstruct}
 
 \clearpage
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Evaluation}
-
+\subsection{Choose implementation methods - C++ and Qt}
+\input{src/section/groundwork/QtC++}
 
 
 \clearpage
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Conclusion and future work}
+\section{Early stage - Creation of a sample interface: display one CT image}
+\subsection{An external library to deal with DICOM images: DCMTK}
+\input{src/section/earlystage/dcmtkdicom}
+
+\clearpage
+\subsection{DCMTK classes and DICOM format}
+\input{src/section/earlystage/dcmtkdicomclasses}
+
+\clearpage
+\subsection{A journey to sample interface: building and linking the library}
+\input{src/section/earlystage/installation}
+
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Design and Features Implementation}
+\subsection{Time schedule overview}
+%Should definitely takl about my issues because project not really reachable
+\input{src/section/designfeatures/chronology}
+
+\clearpage
+\subsection{Main features: development and challenges}
+\input{src/section/earlystage/featuresdevelopment}
+
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{FInal Results and Evaluations}
+\clearpage
+\subsection{Final output}
+\input{src/section/results/design}
+
+\clearpage
+\subsection{Third party feedback}
+\input{src/section/results/patienteval}
+
+\clearpage
+\subsection{Personnal evaluation}
+\input{src/section/results/personaleval}
+
+\clearpage
+\subsection{Ethic and LSEPI checklist}
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion and Future work}
 
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Appendix}
-\subsection {Appendix 1 - General Interface Specification}
+\subsection {Appendix - DICOM Real World Model Structure}
 
+\begin{appendices}
 \begin{figure}[ht]
 \centering
-\includegraphics[width = 0.95\hsize]{./figures/GeneralSpec1}
-\includegraphics[width = 0.95\hsize]{./figures/GeneralSpec2}
+\includegraphics[width = 0.95\hsize]{./figures/DICOMRealWorldModel}
+\caption{DICOM Real World Model Structure}
 \end{figure}
 
 
@@ -220,6 +218,9 @@ I have been given the freedom to choose the langage and tools that I will use to
 \includegraphics[width = 0.95\hsize]{./figures/ImagingSpec4}
 \end{figure}
 \clearpage
+
+
+\subsection {Appendix 3 - Code Overview}
 
 
 

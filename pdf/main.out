@@ -1,17 +1,14 @@
 \BOOKMARK [1][]{section.2}{1 Introduction}{}% 1
-\BOOKMARK [1][]{section.3}{2 Project Overview}{}% 2
-\BOOKMARK [2][]{subsection.4}{2.1 Supervisors}{section.3}% 3
-\BOOKMARK [2][]{subsection.5}{2.2 Project Goal}{section.3}% 4
-\BOOKMARK [1][]{section.6}{3 Background Work}{}% 5
-\BOOKMARK [2][]{subsection.7}{3.1 Project field apprehension:}{section.6}% 6
-\BOOKMARK [2][]{subsection.8}{3.2 Project frame and specifications definition:}{section.6}% 7
-\BOOKMARK [2][]{subsection.9}{3.3 DICOM Data familiarization}{section.6}% 8
-\BOOKMARK [2][]{subsection.10}{3.4 Choose accurate implementation method:}{section.6}% 9
-\BOOKMARK [1][]{section.11}{4 The DICOM File Format}{}% 10
-\BOOKMARK [2][]{subsection.12}{4.1 Definition}{section.11}% 11
-\BOOKMARK [2][]{subsection.13}{4.2 Understanding file content}{section.11}% 12
-\BOOKMARK [1][]{section.14}{5 Evaluation}{}% 13
-\BOOKMARK [1][]{section.15}{6 Conclusion and future work}{}% 14
-\BOOKMARK [1][]{section.16}{7 Appendix}{}% 15
-\BOOKMARK [2][]{subsection.17}{7.1 Appendix 1 - General Interface Specification}{section.16}% 16
-\BOOKMARK [2][]{subsection.20}{7.2 Appendix 2 - Imaging Specification}{section.16}% 17
+\BOOKMARK [1][]{section.3}{2 Project Context and Background}{}% 2
+\BOOKMARK [2][]{subsection.4}{2.1 Project premises}{section.3}% 3
+\BOOKMARK [2][]{subsection.5}{2.2 Benefit of the project}{section.3}% 4
+\BOOKMARK [2][]{subsection.6}{2.3 Early specifications}{section.3}% 5
+\BOOKMARK [1][]{section.7}{3 Groundwork - Required Knowledge Familiarization}{}% 6
+\BOOKMARK [2][]{subsection.8}{3.1 Understand the imaging file format: DICOM standard}{section.7}% 7
+\BOOKMARK [2][]{subsection.13}{3.2 Choose implementation methods - C++ and Qt}{section.7}% 8
+\BOOKMARK [1][]{section.14}{4 Early stage - Creation of a sample interface: display one CT image}{}% 9
+\BOOKMARK [2][]{subsection.15}{4.1 An external library to deal with DICOM images: DCMTK}{section.14}% 10
+\BOOKMARK [2][]{subsection.16}{4.2 DCMTK classes and DICOM format}{section.14}% 11
+\BOOKMARK [2][]{subsection.17}{4.3 A journey to sample interface: building and linking the library}{section.14}% 12
+\BOOKMARK [1][]{section.18}{5 Design and Features Implementation}{}% 13
+\BOOKMARK [2][]{subsection.19}{5.1 Time schedule overview}{section.18}% 14

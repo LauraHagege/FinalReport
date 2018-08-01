@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.26)  16 JUL 2018 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.26)  1 AUG 2018 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -803,14 +803,80 @@ LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <24.88> not available
 ]
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/bch/b/n' tried instead on input line 53.
-(./src/section/abstract.tex) [3] (./src/section/acknowledgements.tex) [4
+(./src/section/abstract.tex
+LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <12> not available
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 2.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \newline
+             \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [3] (./src/section/acknowledgements.tex) [4
 
 ]
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/bch/b/n' tried instead on input line 74.
 (pdf/main.toc
-LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <12> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 5.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 9.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -823,295 +889,381 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ] [6
 
 
-] (./src/section/introduction.tex) [1]
+] (./src/section/introduction.tex
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \newline
+             \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \newline
+             \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [1]
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/bch/b/n' tried instead on input line 95.
-(./src/section/overview/supervisors.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--3
+(Font)              Font shape `OT1/bch/b/n' tried instead on input line 94.
+(./src/section/backgroundandcontext/premises.tex) [2
 
- []
+] (./src/section/backgroundandcontext/benefit.tex) [3
+
+] (./src/section/backgroundandcontext/specifications.tex
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+! LaTeX Error: There's no line here to end.
 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for OMS+bch on input line 25.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsbch.fd
+File: omsbch.fd 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 6--98
+LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
- []
+! LaTeX Error: There's no line here to end.
 
-(./src/section/overview/goal.tex
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ô in font bchr7t!
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ú in font bchr7t!
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ù in font bchr7t!
-LaTeX Font Info:    Try loading font information for OMS+bch on input line 4.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsbch.fd
-File: omsbch.fd 
-)
-LaTeX Font Info:    Font shape `OMS/bch/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
+) [4
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+] [5] (./src/section/dicom/definition.tex
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \newline
+             \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \newline
+             \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (./src/section/dicom/dicomstruct.tex
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \newline
+             \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \newline
+             \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) [2
+<./figures/DICOMInformationalModel.png, id=183, 501.875pt x 349.305pt>
+File: ./figures/DICOMInformationalModel.png Graphic file (type png)
+<use ./figures/DICOMInformationalModel.png>
+Package pdftex.def Info: ./figures/DICOMInformationalModel.png used on input li
+ne 11.
+(pdftex.def)             Requested size: 350.53915pt x 243.98949pt.
 
-] [3
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[6
 
 ]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./figures/ImageIOD.png, id=189, 359.4228pt x 356.532pt>
+File: ./figures/ImageIOD.png Graphic file (type png)
+<use ./figures/ImageIOD.png>
+Package pdftex.def Info: ./figures/ImageIOD.png used on input line 28.
+(pdftex.def)             Requested size: 372.4491pt x 369.46797pt.
+[7 <./figures/DICOMInformationalModel.png>] [8 <./figures/ImageIOD.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+
+ []
+
+<./figures/DicomFileFormat.png, id=203, 356.33125pt x 339.2675pt>
+File: ./figures/DicomFileFormat.png Graphic file (type png)
+<use ./figures/DicomFileFormat.png>
+Package pdftex.def Info: ./figures/DicomFileFormat.png used on input line 43.
+(pdftex.def)             Requested size: 219.08614pt x 208.5939pt.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ú in font bchr7t!
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ù in font bchr7t!
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ì in font bchr7t!
-[4
+Missing character: There is no ‚ in font bchr7t!
+Missing character: There is no Ä in font bchr7t!
+Missing character: There is no ì in font bchr7t!
 
-] (./src/section/dicom/definition.tex)
-
-Package natbib Warning: Citation `DICOMWEBSITE:1' on page 5 undefined on input 
-line 162.
-
-(./src/section/dicom/filecontent.tex
-
-Package natbib Warning: Citation `DICOMWEBSITE:1' on page 5 undefined on input 
-line 1.
-
-) [5
-
-] [6
-
-] [7
-
-]
-
-! LaTeX Error: File `./figures/GeneralSpec1' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...dth = 0.95\hsize]{./figures/GeneralSpec1}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
-s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `./figures/GeneralSpec2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.188 ...dth = 0.95\hsize]{./figures/GeneralSpec2}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
-s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package hypcap Error: You have forgotten to use \caption.
-
-See the hypcap package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 \end{figure}
-                  
-\global 
-
-[8
-
-]
-
-! LaTeX Error: File `./figures/GeneralSpec3' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197 ...dth = 0.95\hsize]{./figures/GeneralSpec3}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
-s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `./figures/GeneralSpec4' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 ...dth = 0.95\hsize]{./figures/GeneralSpec4}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
-s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package hypcap Error: You have forgotten to use \caption.
-
-See the hypcap package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 \end{figure}
-                  
-\global 
+Overfull \hbox (29.86407pt too wide) in paragraph at lines 57--59
+\OT1/bch/m/n/12 rep-re-sent-ing the Group Num-ber Fol-lowed by yhe El-e-ment Nu
+m-ber. Eg: (0028,0010):
+ []
 
 [9
 
-]
+ <./figures/DicomFileFormat.png>] <./figures/DataSetandDataElement.png, id=210,
+ 504.88625pt x 217.81375pt>
+File: ./figures/DataSetandDataElement.png Graphic file (type png)
+<use ./figures/DataSetandDataElement.png>
+Package pdftex.def Info: ./figures/DataSetandDataElement.png used on input line
+ 66.
+(pdftex.def)             Requested size: 350.53915pt x 151.22888pt.
+[10 <./figures/DataSetandDataElement.png>]
 
-! LaTeX Error: File `./figures/ImagingSpec1' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.207 ...dth = 0.95\hsize]{./figures/ImagingSpec1}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
-s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package hypcap Error: You have forgotten to use \caption.
-
-See the hypcap package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.208 \end{figure}
-                  
-\global 
-
-[10
-
-]
-
-! LaTeX Error: File `./figures/ImagingSpec2' not found.
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 ...dth = 0.95\hsize]{./figures/ImagingSpec2}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
-s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.75 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
+) [11
 
-! Package hypcap Error: You have forgotten to use \caption.
+] (./src/section/groundwork/QtC++.tex) [12
 
-See the hypcap package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.214 \end{figure}
-                  
-\global 
+] (./src/section/earlystage/dcmtkdicom.tex
 
-[11
-
-]
-
-! LaTeX Error: File `./figures/ImagingSpec3' not found.
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.219 ...dth = 0.95\hsize]{./figures/ImagingSpec3}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
-s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.5 \newline
+            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
+[13
 
-! LaTeX Error: File `./figures/ImagingSpec4' not found.
+]) [14
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.220 ...dth = 0.95\hsize]{./figures/ImagingSpec4}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
-s
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+] (./src/section/earlystage/dcmtkdicomclasses.tex) [15
 
+] (./src/section/earlystage/installation.tex) [16
 
-! Package hypcap Error: You have forgotten to use \caption.
-
-See the hypcap package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.221 \end{figure}
-                  
-\global 
-
-[12
+] (./src/section/designfeatures/chronology.tex) [17
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 227.
+! LaTeX Error: File `src/section/earlystage/featuresdevelopment.tex' not found.
 
 
-Package natbib Warning: There were undefined citations.
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
-(pdf/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.146 ...c/section/earlystage/featuresdevelopment}
+                                                  ^^M
+*** (cannot \read from terminal in nonstop modes)
 
- ) 
+ 
 Here is how much of TeX's memory you used:
- 15067 strings out of 492995
- 245941 string characters out of 6132704
- 710502 words of memory out of 5000000
- 18292 multiletter control sequences out of 15000+600000
+ 15116 strings out of 492995
+ 247418 string characters out of 6132704
+ 712500 words of memory out of 5000000
+ 18313 multiletter control sequences out of 15000+600000
  33584 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,43p,1153b,1684s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on pdf/main.pdf (18 pages, 86385 bytes).
-PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 38i,11n,43p,1153b,1746s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
