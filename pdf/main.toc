@@ -1,0 +1,53 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Background and Related Work}{2}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Project premises and Goal definition}{2}{subsection.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Early specifications}{3}{subsection.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Groundwork}{5}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Understanding the imaging file format: DICOM standard}{5}{subsection.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Choosing implementation methods - C++ and Qt}{11}{subsection.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Early stage - Creation of a sample interface: display one CT image}{12}{section.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}An external library to deal with DICOM images: DCMTK}{12}{subsection.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}DCMTK classes and DICOM format}{14}{subsection.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}A journey to sample interface: building and linking the library}{15}{subsection.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Interface Design Implementation}{16}{section.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Time schedule overview}{16}{subsection.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Main features: development and challenges}{17}{subsection.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Results}{18}{section.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Final output}{19}{subsection.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Third party feedback}{20}{subsection.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Evaluation}{21}{section.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1}Personal evaluation}{22}{subsection.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Ethic and LSEPI checklist}{23}{subsection.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Conclusions and Future work}{24}{section.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Appendix}{25}{section.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1}Appendix - DICOM Real World Model Structure}{25}{subsection.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2}Appendix 2 - Imaging Specification}{28}{subsection.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3}Appendix 3 - Code Overview}{31}{subsection.35}

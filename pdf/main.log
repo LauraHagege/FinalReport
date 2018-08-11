@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.26)  1 AUG 2018 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.26)  11 AUG 2018 10:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,7 +813,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \newline
+l.4 \newline
              \vspace{5mm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -826,52 +826,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 \newline
-              \vspace{5mm}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \newline
-              \vspace{5mm}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \newline
-              \vspace{5mm}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \newline
-              \vspace{5mm}
+l.7 \newline
+             \vspace{5mm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) [3] (./src/section/acknowledgements.tex) [4
+
 
 ]
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <17.28> not available
@@ -897,7 +859,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \newline
+l.3 \newline
              \vspace{5mm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -910,7 +872,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \newline
+l.7 \newline
              \vspace{5mm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -923,7 +885,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \newline
+l.11 \newline
+              \vspace{5mm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \newline
               \vspace{5mm}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -933,8 +908,6 @@ or  <return>  to continue without it.
 LaTeX Font Info:    Font shape `OT1/bch/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/bch/b/n' tried instead on input line 94.
 (./src/section/backgroundandcontext/premises.tex) [2
-
-] (./src/section/backgroundandcontext/benefit.tex) [3
 
 ] (./src/section/backgroundandcontext/specifications.tex
 
@@ -1017,9 +990,9 @@ Missing character: There is no ú in font bchr7t!
 Missing character: There is no ‚ in font bchr7t!
 Missing character: There is no Ä in font bchr7t!
 Missing character: There is no ù in font bchr7t!
-) [4
+) [3
 
-] [5] (./src/section/dicom/definition.tex
+] [4] (./src/section/dicom/definition.tex
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1091,7 +1064,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<./figures/DICOMInformationalModel.png, id=183, 501.875pt x 349.305pt>
+<./figures/DICOMInformationalModel.png, id=179, 501.875pt x 349.305pt>
 File: ./figures/DICOMInformationalModel.png Graphic file (type png)
 <use ./figures/DICOMInformationalModel.png>
 Package pdftex.def Info: ./figures/DICOMInformationalModel.png used on input li
@@ -1115,7 +1088,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[6
+[5
 
 ]
 
@@ -1131,17 +1104,17 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./figures/ImageIOD.png, id=189, 359.4228pt x 356.532pt>
+<./figures/ImageIOD.png, id=185, 359.4228pt x 356.532pt>
 File: ./figures/ImageIOD.png Graphic file (type png)
 <use ./figures/ImageIOD.png>
 Package pdftex.def Info: ./figures/ImageIOD.png used on input line 28.
 (pdftex.def)             Requested size: 372.4491pt x 369.46797pt.
-[7 <./figures/DICOMInformationalModel.png>] [8 <./figures/ImageIOD.png>]
+[6 <./figures/DICOMInformationalModel.png>] [7 <./figures/ImageIOD.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 37--40
 
  []
 
-<./figures/DicomFileFormat.png, id=203, 356.33125pt x 339.2675pt>
+<./figures/DicomFileFormat.png, id=199, 356.33125pt x 339.2675pt>
 File: ./figures/DicomFileFormat.png Graphic file (type png)
 <use ./figures/DicomFileFormat.png>
 Package pdftex.def Info: ./figures/DicomFileFormat.png used on input line 43.
@@ -1190,16 +1163,16 @@ Overfull \hbox (29.86407pt too wide) in paragraph at lines 57--59
 m-ber. Eg: (0028,0010):
  []
 
-[9
+[8
 
- <./figures/DicomFileFormat.png>] <./figures/DataSetandDataElement.png, id=210,
+ <./figures/DicomFileFormat.png>] <./figures/DataSetandDataElement.png, id=206,
  504.88625pt x 217.81375pt>
 File: ./figures/DataSetandDataElement.png Graphic file (type png)
 <use ./figures/DataSetandDataElement.png>
 Package pdftex.def Info: ./figures/DataSetandDataElement.png used on input line
  66.
 (pdftex.def)             Requested size: 350.53915pt x 151.22888pt.
-[10 <./figures/DataSetandDataElement.png>]
+[9 <./figures/DataSetandDataElement.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1213,9 +1186,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [11
+) [10
 
-] (./src/section/groundwork/QtC++.tex) [12
+] (./src/section/groundwork/Qt.tex) [11
 
 ] (./src/section/earlystage/dcmtkdicom.tex
 
@@ -1231,39 +1204,241 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[13
+[12
 
-]) [14
+]) [13
 
-] (./src/section/earlystage/dcmtkdicomclasses.tex) [15
+] (./src/section/earlystage/dcmtkdicomclasses.tex) [14
 
-] (./src/section/earlystage/installation.tex) [16
+] (./src/section/earlystage/installation.tex) [15
 
-] (./src/section/designfeatures/chronology.tex) [17
+] (./src/section/designfeatures/chronology.tex) [16
+
+] (./src/section/designfeatures/featuresdevelopment.tex) [17
+
+] [18
+
+] (./src/section/results/design.tex) [19
+
+] (./src/section/results/patienteval.tex) [20
+
+] [21
+
+] (./src/section/results/personaleval.tex) [22
+
+] [23
+
+] [24
 
 ]
 
-! LaTeX Error: File `src/section/earlystage/featuresdevelopment.tex' not found.
+! LaTeX Error: Environment appendices undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \begin{appendices}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./figures/DICOMRealWorldModel.png, id=275, 503.8825pt x 689.57625pt>
+File: ./figures/DICOMRealWorldModel.png Graphic file (type png)
+<use ./figures/DICOMRealWorldModel.png>
+Package pdftex.def Info: ./figures/DICOMRealWorldModel.png used on input line 1
+87.
+(pdftex.def)             Requested size: 416.26231pt x 569.66501pt.
+[25
+
+] [26 <./figures/DICOMRealWorldModel.png>]
+
+! LaTeX Error: File `./figures/GeneralSpec3' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 ...dth = 0.95\hsize]{./figures/GeneralSpec3}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
+s
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+! LaTeX Error: File `./figures/GeneralSpec4' not found.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.146 ...c/section/earlystage/featuresdevelopment}
-                                                  ^^M
-*** (cannot \read from terminal in nonstop modes)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 ...dth = 0.95\hsize]{./figures/GeneralSpec4}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
+s
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- 
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 \end{figure}
+                  
+\global 
+
+[27
+
+]
+
+! LaTeX Error: File `./figures/ImagingSpec1' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 ...dth = 0.95\hsize]{./figures/ImagingSpec1}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
+s
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \end{figure}
+                  
+\global 
+
+[28
+
+]
+
+! LaTeX Error: File `./figures/ImagingSpec2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ...dth = 0.95\hsize]{./figures/ImagingSpec2}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
+s
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.214 \end{figure}
+                  
+\global 
+
+[29
+
+]
+
+! LaTeX Error: File `./figures/ImagingSpec3' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 ...dth = 0.95\hsize]{./figures/ImagingSpec3}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
+s
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `./figures/ImagingSpec4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 ...dth = 0.95\hsize]{./figures/ImagingSpec4}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
+s
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package hypcap Error: You have forgotten to use \caption.
+
+See the hypcap package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.221 \end{figure}
+                  
+\global 
+
+[30
+
+]
+
+LaTeX Warning: Empty bibliography on input line 230.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+[31
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
+(pdf/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: <no file>.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 184 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 15116 strings out of 492995
- 247418 string characters out of 6132704
- 712500 words of memory out of 5000000
- 18313 multiletter control sequences out of 15000+600000
+ 15161 strings out of 492995
+ 248142 string characters out of 6132704
+ 712498 words of memory out of 5000000
+ 18321 multiletter control sequences out of 15000+600000
  33584 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,43p,1153b,1746s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 38i,11n,43p,1153b,1752s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on pdf/main.pdf (37 pages, 502820 bytes).
+PDF statistics:
+ 356 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+

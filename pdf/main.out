@@ -1,14 +1,25 @@
 \BOOKMARK [1][]{section.2}{1 Introduction}{}% 1
-\BOOKMARK [1][]{section.3}{2 Project Context and Background}{}% 2
-\BOOKMARK [2][]{subsection.4}{2.1 Project premises}{section.3}% 3
-\BOOKMARK [2][]{subsection.5}{2.2 Benefit of the project}{section.3}% 4
-\BOOKMARK [2][]{subsection.6}{2.3 Early specifications}{section.3}% 5
-\BOOKMARK [1][]{section.7}{3 Groundwork - Required Knowledge Familiarization}{}% 6
-\BOOKMARK [2][]{subsection.8}{3.1 Understand the imaging file format: DICOM standard}{section.7}% 7
-\BOOKMARK [2][]{subsection.13}{3.2 Choose implementation methods - C++ and Qt}{section.7}% 8
-\BOOKMARK [1][]{section.14}{4 Early stage - Creation of a sample interface: display one CT image}{}% 9
-\BOOKMARK [2][]{subsection.15}{4.1 An external library to deal with DICOM images: DCMTK}{section.14}% 10
-\BOOKMARK [2][]{subsection.16}{4.2 DCMTK classes and DICOM format}{section.14}% 11
-\BOOKMARK [2][]{subsection.17}{4.3 A journey to sample interface: building and linking the library}{section.14}% 12
-\BOOKMARK [1][]{section.18}{5 Design and Features Implementation}{}% 13
-\BOOKMARK [2][]{subsection.19}{5.1 Time schedule overview}{section.18}% 14
+\BOOKMARK [1][]{section.3}{2 Background and Related Work}{}% 2
+\BOOKMARK [2][]{subsection.4}{2.1 Project premises and Goal definition}{section.3}% 3
+\BOOKMARK [2][]{subsection.5}{2.2 Early specifications}{section.3}% 4
+\BOOKMARK [1][]{section.6}{3 Groundwork}{}% 5
+\BOOKMARK [2][]{subsection.7}{3.1 Understanding the imaging file format: DICOM standard}{section.6}% 6
+\BOOKMARK [2][]{subsection.12}{3.2 Choosing implementation methods - C++ and Qt}{section.6}% 7
+\BOOKMARK [1][]{section.13}{4 Early stage - Creation of a sample interface: display one CT image}{}% 8
+\BOOKMARK [2][]{subsection.14}{4.1 An external library to deal with DICOM images: DCMTK}{section.13}% 9
+\BOOKMARK [2][]{subsection.15}{4.2 DCMTK classes and DICOM format}{section.13}% 10
+\BOOKMARK [2][]{subsection.16}{4.3 A journey to sample interface: building and linking the library}{section.13}% 11
+\BOOKMARK [1][]{section.17}{5 Interface Design Implementation}{}% 12
+\BOOKMARK [2][]{subsection.18}{5.1 Time schedule overview}{section.17}% 13
+\BOOKMARK [2][]{subsection.19}{5.2 Main features: development and challenges}{section.17}% 14
+\BOOKMARK [1][]{section.20}{6 Results}{}% 15
+\BOOKMARK [2][]{subsection.21}{6.1 Final output}{section.20}% 16
+\BOOKMARK [2][]{subsection.22}{6.2 Third party feedback}{section.20}% 17
+\BOOKMARK [1][]{section.23}{7 Evaluation}{}% 18
+\BOOKMARK [2][]{subsection.24}{7.1 Personal evaluation}{section.23}% 19
+\BOOKMARK [2][]{subsection.25}{7.2 Ethic and LSEPI checklist}{section.23}% 20
+\BOOKMARK [1][]{section.26}{8 Conclusions and Future work}{}% 21
+\BOOKMARK [1][]{section.27}{9 Appendix}{}% 22
+\BOOKMARK [2][]{subsection.28}{9.1 Appendix - DICOM Real World Model Structure}{section.27}% 23
+\BOOKMARK [2][]{subsection.31}{9.2 Appendix 2 - Imaging Specification}{section.27}% 24
+\BOOKMARK [2][]{subsection.35}{9.3 Appendix 3 - Code Overview}{section.27}% 25
