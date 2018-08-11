@@ -1,0 +1,91 @@
+The first challenge of this project is to render a DICOM Image. As already explained the DICOM format is not trivial 
+
+I don't know what would be written about dcmtk and DICOM 
+
+
+Among other information I think this is relevant to explain how I managed to display the dicom images because this is not a trivial format
+
+QT provide a class QIMage qnd blablabla
+
+and had to get through dcmtk documentation to find the relevant function I will use !
+
+\newline \vspace{5mm}
+
+Given a DICOM folder, this should contain at least the DICOMDIR file and another folder call DICOMDAT containing paths to series folder and images.
+
+Usually DICOM folder contains only on study composed of multiple series, each serie being stored in separate folders. Then one serie file can either contain:
+
+\begin{itemize}
+	\item One single frame DICOM Image
+	\item Several single frame DICOM Images
+	\item One multiframe DICOM Image
+\end{itemize}
+
+Objectively, single and multi frame images only differ by the size of the file.
+
+\newline \vspace{5mm}	
+\textbf{1. Display one image:}
+
+\newline \vspace{5mm}	
+
+The DCMTK library that I installed contains several classes that should make DICOM Images treatment easier.
+The class I used to deal with DICOM Images files is called DicomImage, the class structure and related functions are available on DCMTK website [8888].
+The class is provided with four different constructors and depending on the given parameters this class allows to deal with single frame and multiframe images. Information about the constructor I choosed are available on Appendix XXX figure YYY
+
+
+\begin{itemize}
+	\item Display single frame DICOM Image:
+	
+	\begin{center}
+	\textit{DicomImage *DcmImg = new DicomImage(path)}
+	\end{center}
+	
+	
+	\item Display multiframe DICOM Image:
+	
+	\begin{center}
+	\textit{DicomImage *DcmImg = new DicomImage(path,0,index,1)}
+	\end{center}
+	
+	\textit{index} being the index of the frame to display
+	
+\end{itemize}
+
+The variable \textit{path} is a string and contains the absolut path to the DICOM Image file.
+\newline \vspace{5mm}
+
+
+Once I got the DicomImage object, I need to get the pixels in order to have the opportunity to use QImage class thereafter. Here again DCMTK provide me with the function \textit{getOutputData()} - see Appendix XX figure ZZ -. The corresponding line of code is:
+\newline \vspace{5mm} 
+
+	\begin{center}
+	\textit{uint8_t* pixelData= DcmImg->getOutputData(8)}
+	\end{center}
+
+\newline \vspace{5mm}  
+Explain what is uint8_t
+
+
+
+Finally I only need to use two classes provided by Qt to render the DICOM Image on my application:
+
+\newline \vspace{5mm} 
+
+	\begin{center}
+	\textit{uint8_t* pixelData= DcmImg->getOutputData(8)}
+	\end{center}
+
+\newline \vspace{5mm}  
+
+QIMage only takes pixel and a scene can only display QPixmap element see appendix
+
+
+\newline \vspace{5mm}	
+
+\textbf{2. Store and display successive images of the serie}
+
+\newline \vspace{5mm}	
+
+
+
+

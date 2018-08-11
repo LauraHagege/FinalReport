@@ -55,8 +55,8 @@
 \input{src/section/abstract}
 
 \end{abstract}
-\clearpage
-\clearpage
+\cleardoublepage
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \renewcommand{\abstractname}{Acknowledgements}
@@ -65,7 +65,7 @@
 \input{src/section/acknowledgements}
 
 \end{abstract}
-\clearpage
+\cleardoublepage
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -91,53 +91,67 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Background and Related Work}
-\subsection{Project premises and Goal definition}
+\subsection{Project context}
 %will work and goal
 \input{src/section/backgroundandcontext/premises}
 
 \clearpage
-\subsection{Early specifications}
-%same as in background
-\input{src/section/backgroundandcontext/specifications}
+\subsection{Related Work}
+\input{src/section/backgroundandcontext/relatedwork}
+
+\clearpage
+\subsection{Goal definition}
+\input{src/section/backgroundandcontext/goal}
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Groundwork}
-\subsection{Understanding the imaging file format: DICOM standard}
-\input{src/section/dicom/definition}
-\input{src/section/dicom/dicomstruct}
+\section{Define Specifications and Implementation Methods}
+\subsection{Early specifications}
+%same as in background
+\input{src/section/earlystage/specifications}
 
 \clearpage
-\subsection{Choosing implementation methods - C++ and Qt}
+\subsection{Choosing tools- C++ and Qt}
 \input{src/section/groundwork/Qt}
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Early stage - Creation of a sample interface: display one CT image}
-\subsection{An external library to deal with DICOM images: DCMTK}
-\input{src/section/earlystage/dcmtkdicom}
+\section{Understanding Imaging File Format: DICOM standard }
+\subsection{Definition}
+\input{src/section/dicom/definition}
 
-\clearpage
-\subsection{DCMTK classes and DICOM format}
-\input{src/section/earlystage/dcmtkdicomclasses}
+\subsection{DICOM File Structure}
+\input{src/section/dicom/dicomstruct}
 
-\clearpage
-\subsection{A journey to sample interface: building and linking the library}
-\input{src/section/earlystage/installation}
+
 
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Interface Design Implementation}
-\subsection{Time schedule overview}
-%Should definitely takl about my issues because project not really reachable
-\input{src/section/designfeatures/chronology}
+\section{Implementation}
+\subsection{Code Structure}
+\input{src/section/earlystage/dcmtkdicom}
+
+
+\subsection{DCMTK library and Qt}
 
 \clearpage
-\subsection{Main features: development and challenges}
+\subsection{Render DICOM Images with Qt and DCMTK}
+\input{src/section/implementation/displaydicom}
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Design and Features}
+\subsection{Design with QtDesigner}
+%Should definitely takl about my issues because project not really reachable
+
+
+\clearpage
+\subsection{Features implementation}
 \input{src/section/designfeatures/featuresdevelopment}
 
 
@@ -179,51 +193,35 @@
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Appendix}
-\subsection {Appendix - DICOM Real World Model Structure}
+\clearpage
 
-\begin{appendices}
-\begin{figure}[ht]
-\centering
-\includegraphics[width = 0.95\hsize]{./figures/DICOMRealWorldModel}
-\caption{DICOM Real World Model Structure}
-\end{figure}
+\subsection {Appendix  - Expert Questionnaire Results from William PhD}
+\input{src/appendix/willreport}
+
 
 
 
 \clearpage
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width = 0.95\hsize]{./figures/GeneralSpec3}
-\includegraphics[width = 0.95\hsize]{./figures/GeneralSpec4}
-\end{figure}
+\subsection {Appendix  - General Specification}
+\input{src/appendix/generalspec}
 
 \clearpage
 
-\subsection {Appendix 2 - Imaging Specification}
+\subsection {Appendix  - Imaging Specification}
+\input{src/appendix/imagingspec}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width = 0.95\hsize]{./figures/ImagingSpec1}
-\end{figure}
 \clearpage
+\subsection {Appendix  - DCMTK: Relevant classes and functions declarations}
+\input{src/appendix/dcmtkdoc}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width = 0.95\hsize]{./figures/ImagingSpec2}
-\end{figure}
 \clearpage
+\subsection {Appendix  - Qt: Relevant classes and functions declarations}
+\input{src/appendix/Qtdoc}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width = 0.95\hsize]{./figures/ImagingSpec3}
-\includegraphics[width = 0.95\hsize]{./figures/ImagingSpec4}
-\end{figure}
 \clearpage
-
-
-\subsection {Appendix 3 - Code Overview}
-
+\subsection {Appendix  - Interface Design Specification}
+\input{src/appendix/interfacedesign}
 
 
 %% bibliography
