@@ -8,60 +8,74 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Project context}{2}{subsection.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Related Work}{4}{subsection.5}
+\contentsline {subsection}{\numberline {2.2}Related Work}{3}{subsection.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Goal definition}{5}{subsection.6}
+\contentsline {subsection}{\numberline {2.3}Goal definition}{4}{subsection.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Define Specifications and Implementation Methods}{6}{section.7}
+\contentsline {section}{\numberline {3}Early Specifications and Implementation Methods}{5}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Early specifications}{6}{subsection.8}
+\contentsline {subsection}{\numberline {3.1}Early specifications}{5}{subsection.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Choosing tools- C++ and Qt}{8}{subsection.9}
+\contentsline {subsection}{\numberline {3.2}Choosing tools- C++ and Qt}{7}{subsection.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Understanding Imaging File Format: DICOM standard }{9}{section.11}
+\contentsline {section}{\numberline {4}The Imaging File Format: DICOM standard }{8}{section.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Definition}{9}{subsection.12}
+\contentsline {subsection}{\numberline {4.1}DICOM Information Model structure}{8}{subsection.12}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}DICOM File Structure}{9}{subsection.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Implementation}{15}{section.18}
+\contentsline {subsection}{\numberline {4.3}DICOM Folder - Patient level}{11}{subsection.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Code Structure}{15}{subsection.19}
+\contentsline {section}{\numberline {5}Classes and File Structure}{12}{section.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}DCMTK library and Qt}{16}{subsection.20}
+\contentsline {subsection}{\numberline {5.1}DCMTK Library and Qt}{12}{subsection.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Render DICOM Images with Qt and DCMTK}{17}{subsection.21}
+\contentsline {subsection}{\numberline {5.2}Classes and UML Diagram}{13}{subsection.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Design and Features}{19}{section.22}
+\contentsline {section}{\numberline {6}Implementation}{14}{section.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Design with QtDesigner}{19}{subsection.23}
+\contentsline {subsection}{\numberline {6.1}Rendering DICOM Images}{14}{subsection.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Features implementation}{20}{subsection.24}
+\contentsline {subsection}{\numberline {6.2}Building 3D plan}{16}{subsection.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Results}{21}{section.25}
+\contentsline {section}{\numberline {7}Results}{17}{section.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Final output}{22}{subsection.26}
+\contentsline {subsection}{\numberline {7.1}Interface Overview - General Content}{17}{subsection.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Third party feedback}{23}{subsection.27}
+\contentsline {subsection}{\numberline {7.2}Available features}{19}{subsection.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Evaluation}{24}{section.28}
+\contentsline {section}{\numberline {8}Evaluation}{21}{section.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Personal evaluation}{25}{subsection.29}
+\contentsline {subsection}{\numberline {8.1}Lay person evaluation}{21}{subsection.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Ethic and LSEPI checklist}{26}{subsection.30}
+\contentsline {subsection}{\numberline {8.2}Ethic and LSEPI checklist}{22}{subsection.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Conclusions and Future work}{27}{section.31}
+\contentsline {subsection}{\numberline {8.3}Personal evaluation}{23}{subsection.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Appendix}{28}{section.32}
+\contentsline {section}{\numberline {9}Conclusions and Future work}{24}{section.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1}Appendix - Expert Questionnaire Results from William PhD}{29}{subsection.33}
+\contentsline {section}{\numberline {10}Appendix}{25}{section.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2}Appendix - General Specification}{31}{subsection.35}
+\contentsline {subsection}{\numberline {10.1}Appendix 1 - Expert Questionnaire Results from William PhD}{26}{subsection.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.3}Appendix - Imaging Specification}{33}{subsection.38}
+\contentsline {subsection}{\numberline {10.2}Appendix 2 - General Specification}{28}{subsection.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.4}Appendix - DCMTK: Relevant classes and functions declarations}{36}{subsection.42}
+\contentsline {subsection}{\numberline {10.3}Appendix 3 - Imaging Specification}{30}{subsection.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.5}Appendix - Qt: Relevant classes and functions declarations}{37}{subsection.45}
+\contentsline {subsection}{\numberline {10.4}Appendix 4 - Interface Design Specification}{33}{subsection.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.6}Appendix - Interface Design Specification}{38}{subsection.48}
+\contentsline {subsection}{\numberline {10.5}Appendix 5 - DICOM model of the Real World}{35}{subsection.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.6}Appendix 6 - UML Diagram}{37}{subsection.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.7}Appendix 7 - DCMTK: Relevant classes and functions declarations}{38}{subsection.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.8}Appendix 8 - Qt: Relevant classes and functions declarations}{39}{subsection.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.9}Appendix 9 - Disclaimer}{40}{subsection.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.10}Appendix 10 - Pin Access}{41}{subsection.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.11}Appendix 11 - Main Window Overview}{42}{subsection.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.12}Appendix 12 - Reports Window}{44}{subsection.60}

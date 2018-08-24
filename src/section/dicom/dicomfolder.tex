@@ -1,0 +1,60 @@
+While asking for their medical imaging data, patients will be given a \textbf{DICOM Folder} containing all relevant information. Every basic DICOM folder should contain one DICOM element called \textbf{DICOMDIR} and a folder named \textbf{DICOMDAT} leading path to the images.
+
+ 
+\begin{itemize}
+\item From the DICOMDAT folder, the hierachical structure will be as follow:
+
+\begin{forest}
+  for tree={
+    font=\ttfamily,
+    grow'=0,
+    child anchor=west,
+    parent anchor=south,
+    anchor=west,
+    calign=first,
+    edge path={
+      \noexpand\path [draw, \forestoption{edge}]
+      (!u.south west) +(7.5pt,0) |- node[fill,inner sep=1.25pt] {} (.child anchor)\forestoption{edge label};
+    },
+    before typesetting nodes={
+      if n=1
+        {insert before={[,phantom]}}
+        {}
+    },
+    fit=band,
+    before computing xy={l=15pt},
+  }
+[DICOMDAT
+  [\textbf{SDY00000}
+    [\textit{SRS00000}
+		[IMG00000]
+		[...]
+		[IMG0000N]
+	
+	]
+    [\textit{SRS00001}
+		[IMG00000]
+		[...]
+		[IMG0000N]
+	]
+	
+    [\textit{SRS00002}]
+  ]
+  [\textbf{SDY00001}
+    [\textit{SRS00000}]
+  ]
+]
+\end{forest}
+
+\begin{itemize}
+	\item \textbf{SDY0000} folder represents a unique study for a given patient. One study correspond to one set of exams, on request of the patient to explore on part of the body at a given time. A study can be made of one or more series.
+	\item \textbf{SRS0000} stands for a unique serie. One serie correspond to a specific exam organisation (patient orientation, duration, etc.) used to capture the image(s). A serie can be made of one or more images.
+	\item \textbf{IMG00000} are DICOM Images Element, corresponding to the propper "Medical Images". Those elements contain all the relevant information that should be used to render the images on a screen.
+	
+\end{itemize}
+	
+
+\item The \textbf{DICOMDIR} is a \textbf{DICOM File Object} containing the tree structure described above. This will allow to automatically get the path to each element. It also contains the general information according the the exam (patient information, study ID, date). 
+\end{itemize}
+
+The folder might contain other non DICOM element (e.g the report) that won't be recorded by the DICOMDIR. During the creation of my interface, this DICOMDIR has allow me to browse through all the folder element and to automatically find path to images.

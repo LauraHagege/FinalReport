@@ -1,20 +1,9 @@
-The first challenge of this project is to render a DICOM Image. As already explained the DICOM format is not trivial 
+The first challenge of this project was to render a set of DICOM Images or at least one DICOM Image. 
 
-I don't know what would be written about dcmtk and DICOM 
+As I already explained, in part 4.4, the DICOM folder tree structure blablabla 
 
 
-Among other information I think this is relevant to explain how I managed to display the dicom images because this is not a trivial format
-
-QT provide a class QIMage qnd blablabla
-
-and had to get through dcmtk documentation to find the relevant function I will use !
-
-\newline \vspace{5mm}
-
-Given a DICOM folder, this should contain at least the DICOMDIR file and another folder call DICOMDAT containing paths to series folder and images.
-
-Usually DICOM folder contains only on study composed of multiple series, each serie being stored in separate folders. Then one serie file can either contain:
-
+However IMG0000 file are not of only one type, this file can be either:
 \begin{itemize}
 	\item One single frame DICOM Image
 	\item Several single frame DICOM Images

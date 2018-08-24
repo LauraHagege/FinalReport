@@ -3,30 +3,37 @@
 \BOOKMARK [2][]{subsection.4}{2.1 Project context}{section.3}% 3
 \BOOKMARK [2][]{subsection.5}{2.2 Related Work}{section.3}% 4
 \BOOKMARK [2][]{subsection.6}{2.3 Goal definition}{section.3}% 5
-\BOOKMARK [1][]{section.7}{3 Define Specifications and Implementation Methods}{}% 6
+\BOOKMARK [1][]{section.7}{3 Early Specifications and Implementation Methods}{}% 6
 \BOOKMARK [2][]{subsection.8}{3.1 Early specifications}{section.7}% 7
 \BOOKMARK [2][]{subsection.9}{3.2 Choosing tools- C++ and Qt}{section.7}% 8
-\BOOKMARK [1][]{section.11}{4 Understanding Imaging File Format: DICOM standard }{}% 9
-\BOOKMARK [2][]{subsection.12}{4.1 Definition}{section.11}% 10
+\BOOKMARK [1][]{section.11}{4 The Imaging File Format: DICOM standard }{}% 9
+\BOOKMARK [2][]{subsection.12}{4.1 DICOM Information Model structure}{section.11}% 10
 \BOOKMARK [2][]{subsection.13}{4.2 DICOM File Structure}{section.11}% 11
-\BOOKMARK [1][]{section.18}{5 Implementation}{}% 12
-\BOOKMARK [2][]{subsection.19}{5.1 Code Structure}{section.18}% 13
-\BOOKMARK [2][]{subsection.20}{5.2 DCMTK library and Qt}{section.18}% 14
-\BOOKMARK [2][]{subsection.21}{5.3 Render DICOM Images with Qt and DCMTK}{section.18}% 15
-\BOOKMARK [1][]{section.22}{6 Design and Features}{}% 16
-\BOOKMARK [2][]{subsection.23}{6.1 Design with QtDesigner}{section.22}% 17
-\BOOKMARK [2][]{subsection.24}{6.2 Features implementation}{section.22}% 18
-\BOOKMARK [1][]{section.25}{7 Results}{}% 19
-\BOOKMARK [2][]{subsection.26}{7.1 Final output}{section.25}% 20
-\BOOKMARK [2][]{subsection.27}{7.2 Third party feedback}{section.25}% 21
-\BOOKMARK [1][]{section.28}{8 Evaluation}{}% 22
-\BOOKMARK [2][]{subsection.29}{8.1 Personal evaluation}{section.28}% 23
-\BOOKMARK [2][]{subsection.30}{8.2 Ethic and LSEPI checklist}{section.28}% 24
-\BOOKMARK [1][]{section.31}{9 Conclusions and Future work}{}% 25
-\BOOKMARK [1][]{section.32}{10 Appendix}{}% 26
-\BOOKMARK [2][]{subsection.33}{10.1 Appendix - Expert Questionnaire Results from William PhD}{section.32}% 27
-\BOOKMARK [2][]{subsection.35}{10.2 Appendix - General Specification}{section.32}% 28
-\BOOKMARK [2][]{subsection.38}{10.3 Appendix - Imaging Specification}{section.32}% 29
-\BOOKMARK [2][]{subsection.42}{10.4 Appendix - DCMTK: Relevant classes and functions declarations}{section.32}% 30
-\BOOKMARK [2][]{subsection.45}{10.5 Appendix - Qt: Relevant classes and functions declarations}{section.32}% 31
-\BOOKMARK [2][]{subsection.48}{10.6 Appendix - Interface Design Specification}{section.32}% 32
+\BOOKMARK [2][]{subsection.16}{4.3 DICOM Folder - Patient level}{section.11}% 12
+\BOOKMARK [1][]{section.17}{5 Classes and File Structure}{}% 13
+\BOOKMARK [2][]{subsection.18}{5.1 DCMTK Library and Qt}{section.17}% 14
+\BOOKMARK [2][]{subsection.19}{5.2 Classes and UML Diagram}{section.17}% 15
+\BOOKMARK [1][]{section.20}{6 Implementation}{}% 16
+\BOOKMARK [2][]{subsection.21}{6.1 Rendering DICOM Images}{section.20}% 17
+\BOOKMARK [2][]{subsection.22}{6.2 Building 3D plan}{section.20}% 18
+\BOOKMARK [1][]{section.23}{7 Results}{}% 19
+\BOOKMARK [2][]{subsection.24}{7.1 Interface Overview - General Content}{section.23}% 20
+\BOOKMARK [2][]{subsection.25}{7.2 Available features}{section.23}% 21
+\BOOKMARK [1][]{section.26}{8 Evaluation}{}% 22
+\BOOKMARK [2][]{subsection.27}{8.1 Lay person evaluation}{section.26}% 23
+\BOOKMARK [2][]{subsection.28}{8.2 Ethic and LSEPI checklist}{section.26}% 24
+\BOOKMARK [2][]{subsection.29}{8.3 Personal evaluation}{section.26}% 25
+\BOOKMARK [1][]{section.30}{9 Conclusions and Future work}{}% 26
+\BOOKMARK [1][]{section.31}{10 Appendix}{}% 27
+\BOOKMARK [2][]{subsection.32}{10.1 Appendix 1 - Expert Questionnaire Results from William PhD}{section.31}% 28
+\BOOKMARK [2][]{subsection.34}{10.2 Appendix 2 - General Specification}{section.31}% 29
+\BOOKMARK [2][]{subsection.37}{10.3 Appendix 3 - Imaging Specification}{section.31}% 30
+\BOOKMARK [2][]{subsection.41}{10.4 Appendix 4 - Interface Design Specification}{section.31}% 31
+\BOOKMARK [2][]{subsection.44}{10.5 Appendix 5 - DICOM model of the Real World}{section.31}% 32
+\BOOKMARK [2][]{subsection.46}{10.6 Appendix 6 - UML Diagram}{section.31}% 33
+\BOOKMARK [2][]{subsection.47}{10.7 Appendix 7 - DCMTK: Relevant classes and functions declarations}{section.31}% 34
+\BOOKMARK [2][]{subsection.50}{10.8 Appendix 8 - Qt: Relevant classes and functions declarations}{section.31}% 35
+\BOOKMARK [2][]{subsection.53}{10.9 Appendix 9 - Disclaimer}{section.31}% 36
+\BOOKMARK [2][]{subsection.55}{10.10 Appendix 10 - Pin Access}{section.31}% 37
+\BOOKMARK [2][]{subsection.58}{10.11 Appendix 11 - Main Window Overview}{section.31}% 38
+\BOOKMARK [2][]{subsection.60}{10.12 Appendix 12 - Reports Window}{section.31}% 39

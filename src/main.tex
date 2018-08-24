@@ -1,4 +1,10 @@
-\documentclass[12pt,twoside]{article}
+\documentclass[11pt,twoside]{article}
+
+\usepackage{forest}
+\usepackage{graphicx}
+\usepackage{wasysym}
+\usepackage{url}
+
 
 \usepackage[backend=biber,style=alphabetic]{biblatex} 
 \addbibresource{ref.bib}  
@@ -13,7 +19,7 @@
 \newcommand{\reporttitle}{A digital interface designed for sharing diagnostic medical imaging with patients}
 \newcommand{\reportauthor}{Laura Hagege LH}
 \newcommand{\supervisor}{Fernando Bello}
-\newcommand{\degreetype}{Msc. Computing Science}
+\newcommand{\degreetype}{Msc Computing Science}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -91,6 +97,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Background and Related Work}
+\input{src/section/backgroundandcontext/intro}
 \subsection{Project context}
 %will work and goal
 \input{src/section/backgroundandcontext/premises}
@@ -106,53 +113,59 @@
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Define Specifications and Implementation Methods}
+\section{Early Specifications and Implementation Methods}
+\input{src/section/specandmethods/intro}
 \subsection{Early specifications}
 %same as in background
-\input{src/section/earlystage/specifications}
+\input{src/section/specandmethods/specifications}
 
 \clearpage
 \subsection{Choosing tools- C++ and Qt}
-\input{src/section/groundwork/Qt}
+\input{src/section/specandmethods/Qt}
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Understanding Imaging File Format: DICOM standard }
-\subsection{Definition}
-\input{src/section/dicom/definition}
+\section{The Imaging File Format: DICOM standard }
+\input{src/section/dicom/intro}
 
+\subsection{DICOM Information Model structure}
+\input{src/section/dicom/dicommodel}
+
+\clearpage
 \subsection{DICOM File Structure}
 \input{src/section/dicom/dicomstruct}
 
+\clearpage
+\subsection{DICOM Folder - Patient level}
+\input{src/section/dicom/dicomfolder}
 
 
+
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Classes and File Structure}
+\input{src/section/classesandqt/intro}
+\subsection{DCMTK Library and Qt}
+\input{src/section/classesandqt/dcmtkqt}
+
+\clearpage
+\subsection{Classes and UML Diagram}
+\input{src/section/classesandqt/classesandstructure}
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Implementation}
-\subsection{Code Structure}
-\input{src/section/earlystage/dcmtkdicom}
-
-
-\subsection{DCMTK library and Qt}
-
-\clearpage
-\subsection{Render DICOM Images with Qt and DCMTK}
+\input{src/section/implementation/intro}
+\subsection{Rendering DICOM Images}
 \input{src/section/implementation/displaydicom}
 
-
 \clearpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Design and Features}
-\subsection{Design with QtDesigner}
-%Should definitely takl about my issues because project not really reachable
-
-
-\clearpage
-\subsection{Features implementation}
-\input{src/section/designfeatures/featuresdevelopment}
+\subsection{Building 3D plan}
+\input{src/section/implementation/orthogonalplan}
 
 
 
@@ -161,13 +174,14 @@
 
 
 \section{Results}
-\clearpage
-\subsection{Final output}
-\input{src/section/results/design}
+\input{src/section/results/intro}
+\subsection{Interface Overview - General Content}
+\input{src/section/results/content}
 
 \clearpage
-\subsection{Third party feedback}
-\input{src/section/results/patienteval}
+\subsection{Available features}
+\input{src/section/results/features}
+
 
 
 \clearpage
@@ -175,19 +189,26 @@
 
 
 \section{Evaluation}
+\input{src/section/evaluation/intro}
+\subsection{Lay person evaluation}
+\input{src/section/evaluation/patienteval}
 
-\clearpage
-\subsection{Personal evaluation}
-\input{src/section/results/personaleval}
 
 \clearpage
 \subsection{Ethic and LSEPI checklist}
+\input{src/section/evaluation/lsepi}
+
+\clearpage
+\subsection{Personal evaluation}
+\input{src/section/evaluation/personaleval}
 
 
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions and Future work}
+\input{src/section/conclusionandfuture/conclusion}
 
+\input{src/section/conclusionandfuture/futurework}
 
 
 \clearpage
@@ -195,34 +216,58 @@
 \section{Appendix}
 \clearpage
 
-\subsection {Appendix  - Expert Questionnaire Results from William PhD}
+\subsection {Appendix 1 - Expert Questionnaire Results from William PhD}
 \input{src/appendix/willreport}
-
-
-
 
 \clearpage
 
-\subsection {Appendix  - General Specification}
+\subsection {Appendix 2 - General Specification}
 \input{src/appendix/generalspec}
 
 \clearpage
 
-\subsection {Appendix  - Imaging Specification}
+\subsection {Appendix 3 - Imaging Specification}
 \input{src/appendix/imagingspec}
 
+
 \clearpage
-\subsection {Appendix  - DCMTK: Relevant classes and functions declarations}
+\subsection {Appendix 4 - Interface Design Specification}
+\input{src/appendix/interfacedesign}
+
+\clearpage
+
+\subsection {Appendix 5 - DICOM model of the Real World}
+\input{src/appendix/dicomrealworld}
+
+\clearpage
+
+\subsection {Appendix 6 - UML Diagram}
+%\input{src/appendix/}
+
+\clearpage
+
+\subsection {Appendix 7 - DCMTK: Relevant classes and functions declarations}
 \input{src/appendix/dcmtkdoc}
 
 \clearpage
-\subsection {Appendix  - Qt: Relevant classes and functions declarations}
+\subsection {Appendix 8 - Qt: Relevant classes and functions declarations}
 \input{src/appendix/Qtdoc}
 
 \clearpage
-\subsection {Appendix  - Interface Design Specification}
-\input{src/appendix/interfacedesign}
+\subsection {Appendix 9 - Disclaimer}
+\input{src/appendix/disclaimer}
 
+\clearpage
+\subsection {Appendix 10 - Pin Access}
+\input{src/appendix/pinaccess}
+
+\clearpage
+\subsection {Appendix 11 - Main Window Overview}
+\input{src/appendix/firstpage}
+
+\clearpage
+\subsection {Appendix 12 - Reports Window}
+\input{src/appendix/report}
 
 %% bibliography
 \printbibliography

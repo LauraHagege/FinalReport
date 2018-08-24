@@ -1,0 +1,74 @@
+\newcommand{\IconZoom}{\includegraphics[width=1em]{figures/icon/zoom-plus}}
+\newcommand{\IconFlag}{\includegraphics[width=1em]{figures/icon/flag}}
+\newcommand{\IconOneWindow}{\includegraphics[width=1em]{figures/icon/w4}}
+\newcommand{\IconFourWindow}{\includegraphics[width=1em]{figures/icon/w1}}
+\newcommand{\IconPlan}{\includegraphics[width=1em]{figures/icon/sagittal}}
+\newcommand{\IconScroll}{\includegraphics[width=1em]{figures/icon/scroll}}
+\newcommand{\IconLink}{\includegraphics[width=1em]{figures/icon/link}}
+\newcommand{\IconContrast}{\includegraphics[width=1em]{figures/icon/defaultcontrast}}
+\newcommand{\IconNormal}{\includegraphics[width=1em]{figures/icon/examples}}
+
+\begin{itemize}
+	\item {\IconZoom} \textbf{Zoom in/out}:
+	
+	\newline \vspace{3mm} 
+	
+	User can choose to Zoom in/out on the current selected image in order to reach more details, or simply to adapt the image to the window.
+	
+	\item {\IconFlag} \textbf{Display Flagged Image(s)}: 
+	
+	\newline \vspace{3mm} 
+	
+	The Flagged Image(s) of a serie correspond to the most ``relevant'' one and is supposed to give more precision about the condition of the patient - see appendix XXX. This kind of Image has to be directly inserted in the DICOM file, at the right place corresponding the the serie within a study. Path will be of the form ``FLAGGED/SDY00000/SRS00000/FLAG1.png''. There can be one or more Flagged Images and the path will be directly found by the app.
+	\item {\IconFourWindow} \textbf{Display one or more window}:
+	
+	\newline \vspace{3mm} 
+	
+	Interface-user can choose to display one, two or four window on the screen depending on the number of serie he wants to watch.
+	
+	\item {\IconOneWindow} \textbf{Choose the serie(s) to display}:
+	
+	\newline \vspace{3mm}
+	
+	One can choose which serie to display in which window. For the moment he can only display several series from the same study. See appendix XX.
+	
+	\item {\IconPlan} \textbf{Choose the plan to display}:
+	
+	\newline \vspace{3mm}
+	
+	As described in the section 5.2, for series where the set of images is large enough, and the algorithm has been able to define the default plan of the images, the algorithm is able to recreate the two other corresponding plan of the serie. When enabled, the patient can choose which plan to display in the current window.
+	
+	\item {\IconScroll} \textbf{Scroll Images}:
+	
+	\newline \vspace{3mm}
+	
+	For series containing more thant one image, by default while using the mouse wheel, the interface will display successively the images of the serie.
+	
+	\item {\IconLink} \textbf{Link Scrolling}:
+	
+	\newline \vspace{3mm}
+	
+	If the algorithm has been able to construct all the 3 plan from the given serie (section 5.2) and the user has choosen to display at least two plan on the same serie, it is possible for him to link the scroll of images. Linking scroll meaning display a red line that will inform about the position on the current image in the other plan, result is available on appendix XX. By default, window displaying the same plan of the same serie will scroll all at once.
+	
+	\item {\IconContrast} \textbf{Display different contrast}:
+	
+	\newline \vspace{3mm}
+	
+	DICOM provides 3 already made level of contrast call in their term ``Windowing'', ``MinMax'', and ``Histogram''. I replace the terms in Default, Darker and Brighter contrast. By clicking on the corresponding button, one can choose to display the serie in a different contrast, the appendix XX show an exemple of the several contrast that can be displayed. I also add the possibility for each of this contrast, to invert the grayscale of the image. At the moment, for multiplan series, changing the contrast on one of the plan will change it for all of the corresponding plan (storrage concern). 
+	
+	\item {\IconContrast} \textbf{Compare to ``Normal'' Images}:
+	
+	\newline \vspace{3mm}
+	
+	If the result of the exam show that the patient is not in a ``normal'' condition, example of normal images will be provided in the given file. On the same principe as Flagged Images, these images need to be inserted by a clinician, using a path of the form ``REFERENCES/SDY00000/SRS00000/REF1.png''
+	
+	\item \textbf{Access to reports}
+	
+	\newline \vspace{3mm}
+	
+	Clicking on the relative button, user will be given access to his both \textit{clinical} and \textit{simplified} report. Those report have to be filled by a clinician and given to a jpeg format (for the moment), using a path of the form ``REPORTS/SDY00000/CLINICALREPORT.jpeg''. The reports will appear in a distinct designated window, the patient can decide wether he want's to display only on of those reports or both at the same time. An overview of this window in available on \textbf{\textit{Appendix 12}}.
+
+ 
+\end{itemize}
+
+
